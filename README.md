@@ -1,5 +1,5 @@
 # Diagnal 
-#  proficiency in Kotlin / MVVM / Dependency Injection (Hilt)/ Composable through this application development
+#    Kotlin / MVVM / Dependency Injection (Hilt)/ Composable through this application development
 #  Learning jetpack compose and implemented this demo in same
 #  Used Hilt dependency injection here 
 #  app icon created and added "D" for Diagnal in icon
