@@ -24,7 +24,9 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-
+/**
+ * viewmodel for preparing and managing the data
+ * */
 @HiltViewModel
 class MainViewModel @Inject constructor(@ApplicationContext context: Context,pager: Pager<Int, VideoDetail>) : ViewModel() {
 

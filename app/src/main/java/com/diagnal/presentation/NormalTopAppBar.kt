@@ -17,7 +17,9 @@ import androidx.compose.ui.unit.dp
 import com.diagnal.R
 import com.diagnal.ui.theme.LightGray80
 import com.diagnal.ui.theme.titilliumWebFont
-
+/**
+ * material app bar
+ */
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

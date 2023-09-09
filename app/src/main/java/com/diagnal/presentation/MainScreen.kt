@@ -19,7 +19,9 @@ import com.diagnal.presentation.normalTopAppBar
 import com.diagnal.presentation.searchTopAppBar
 import kotlinx.coroutines.flow.Flow
 
-
+ /**
+  * feature and UI implementation in main activity
+  * */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun VideoDetailScreen(

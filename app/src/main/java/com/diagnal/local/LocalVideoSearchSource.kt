@@ -11,6 +11,9 @@ import com.diagnal.utils.readJSONFromAsset
 import com.google.gson.Gson
 import java.io.InputStream
 
+/**
+ * searching movies in list
+ * */
 class LocalVideoSearchSource constructor(private val context: Context, private val searchString: String) : PagingSource<Int, VideoDetail>(){
 
     private val videoList : ArrayList<VideoDetail>? by lazy {

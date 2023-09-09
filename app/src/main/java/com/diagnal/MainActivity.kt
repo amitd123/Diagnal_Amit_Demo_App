@@ -13,12 +13,18 @@ import com.diagnal.presentation.MainViewModel
 import com.diagnal.ui.theme.DiagnalTheme
 import dagger.hilt.android.AndroidEntryPoint
 
-// Launcher activity
+/**
+ * Launcher activity
+ *
+ */
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // set content
         setContent {
+           // set theme
             DiagnalTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(

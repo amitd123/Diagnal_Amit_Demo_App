@@ -32,7 +32,9 @@ import androidx.compose.ui.unit.dp
 import com.diagnal.R
 import com.diagnal.ui.theme.LightGray80
 import com.diagnal.ui.theme.titilliumWebFont
-
+/**
+ * search toolbar
+ * */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun searchTopAppBar(onBackClick: () -> Unit, onSearchTextChange: (String) -> Unit,searchTextState: MutableState<String>) {

@@ -12,6 +12,9 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import java.io.InputStream
 import javax.inject.Inject
 
+/** its a paging source for loading items from local json
+ its for pagination
+ */
 class LocalVideoDetailSource @Inject constructor(@ApplicationContext val context:Context) : PagingSource<Int, VideoDetail>(){
 
     override fun getRefreshKey(state: PagingState<Int, VideoDetail>): Int? {
@@ -20,6 +23,9 @@ class LocalVideoDetailSource @Inject constructor(@ApplicationContext val context
                 ?: state.closestPageToPosition(it)?.nextKey?.minus(1)
         }
     }
+    /***
+     * loading items page wise
+     */
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, VideoDetail> {
         return try {

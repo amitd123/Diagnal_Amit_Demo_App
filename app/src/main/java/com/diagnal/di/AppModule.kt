@@ -10,7 +10,10 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
-
+/**
+ * singleton
+ * providing pager
+ * */
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {

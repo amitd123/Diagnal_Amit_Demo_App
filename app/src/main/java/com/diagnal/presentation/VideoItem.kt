@@ -24,7 +24,9 @@ import com.diagnal.ui.theme.LightGray80
 import com.diagnal.ui.theme.titilliumWebFont
 import com.diagnal.utils.getImageDrawableByName
 import com.diagnal.utils.pixToDp
-
+/**
+ *  item in movie list
+ * */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun videoItem(videoDetails: LazyPagingItems<VideoDetail>,index:Int) {

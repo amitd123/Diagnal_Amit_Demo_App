@@ -47,7 +47,9 @@ import com.diagnal.ui.theme.LightGray80
 import com.diagnal.ui.theme.titilliumWebFont
 import com.diagnal.utils.getImageDrawableByName
 import com.diagnal.utils.pixToDp
-
+/**
+showing list of items in screen
+*/
 @OptIn(ExperimentalFoundationApi::class, ExperimentalComposeUiApi::class)
 @Composable
 fun VideoRowColumn(
